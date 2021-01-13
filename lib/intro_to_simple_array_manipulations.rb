@@ -1,4 +1,3 @@
-require 'pry'
 
 def using_concat(array_1, array_2)
   array_1.concat(array_2)
@@ -13,5 +12,9 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-array.flatten
+  array.flatten
+end
+
+def using_delete
+  
 end
