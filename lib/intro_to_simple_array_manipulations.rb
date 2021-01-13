@@ -1,4 +1,4 @@
-
+require 'pry'
 def using_concat(array_1, array_2)
   array_1.concat(array_2)
 end
@@ -17,4 +17,8 @@ end
 
 def using_delete(array, string)
   array.delete(string)
+end
+
+def using_delete_at(array, integer)
+  
 end
